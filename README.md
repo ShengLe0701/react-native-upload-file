@@ -1,12 +1,11 @@
-# react-native-upload-file  [![NPM version]
+# react-native-upload-file
 ## Getting started
 
 `npm install react-native-upload-file --save`
 
 ### iOS
-1. In XCode, in the project navigator, right click `your project` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-upload-file` and add `UploadFile.m`
-3. Run your project (`Cmd+R`)
+
+Add the `node_modules/react-native-upload-file/UploadFile.m` file to ios project by opening xcodeproj with      XCode(`your project/Add Files to [your project's name]`) 
 
 ### Android
 

@@ -1,6 +1,6 @@
 {
   "name": "react-native-upload-file",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A module to upload file for react native",
   "main": "index.js",
   "scripts": {

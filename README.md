@@ -35,10 +35,9 @@
 
   var UploadFile = require('NativeModules').UploadFile;
 
-  //Custom Function to upload a file.
   function upload(token, ) {
     var obj = {
-        uploadUrl: API_UPLOAD_SERVER_URL, //https://test.com/upload/
+        uploadUrl: 'https://test.com/upload/',
         method: 'POST', 
         headers: {
           'Accept': 'application/json',
@@ -46,13 +45,13 @@
         },
         files: [
           {
-            name: 'files', //key name
-            filename: 'photoid2.jpg', //the name which server will receive  
-            filepath: 'file:///storage/emulated/0/Android/data/com.nativeapp/files/Pictures/image-a8196a8f-dec6-4434-a9ae-60f59345efc8.jpg', //local file path
-            filetype: 'image/jpeg', //file type
+            name: 'files',
+            filename: 'photoid2.jpg',
+            filepath: 'file:///storage/emulated/0/Android/data/com.nativeapp/files/Pictures/image-a8196a8f-dec6-4434-a9ae-60f59345efc8.jpg',
+            filetype: 'image/jpeg',
           },
         ],
-        fields: { //additional parameters
+        fields: { 
         },
     };
 
@@ -61,7 +60,7 @@
 
         }
         else{
-          
+
         }
     })
   }

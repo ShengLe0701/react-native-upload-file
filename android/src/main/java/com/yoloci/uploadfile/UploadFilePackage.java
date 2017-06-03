@@ -1,4 +1,4 @@
-package com.yoloci.fileupload;
+package com.yoloci.uploadfile;
 
 
 import com.facebook.react.ReactPackage;
@@ -13,10 +13,10 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class FileUploadPackage implements ReactPackage {
-    private FileUploadModule mModule;
+public class UploadFilePackage implements ReactPackage {
+    private UploadFileModule mModule;
 
-    public FileUploadPackage() {
+    public UploadFilePackage() {
 
     }
 
@@ -25,7 +25,7 @@ public class FileUploadPackage implements ReactPackage {
             ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
 
-        mModule = new FileUploadModule(reactContext);
+        mModule = new UploadFileModule(reactContext);
         modules.add(mModule);
         return modules;
     }

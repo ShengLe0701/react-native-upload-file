@@ -6,10 +6,10 @@
 #import "RCTBridgeModule.h"
 #import "RCTLog.h"
 
-@interface FileUpload : NSObject <RCTBridgeModule>
+@interface UploadFile : NSObject <RCTBridgeModule>
 @end
 
-@implementation FileUpload
+@implementation UploadFile
 
 RCT_EXPORT_MODULE();
 

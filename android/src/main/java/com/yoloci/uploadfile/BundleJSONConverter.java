@@ -1,4 +1,4 @@
-package com.yoloci.fileupload;
+package com.yoloci.uploadfile;
 
 import android.os.Bundle;
 

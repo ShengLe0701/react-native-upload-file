@@ -1,4 +1,4 @@
-package com.yoloci.fileupload;
+package com.yoloci.uploadfile;
 
 import android.os.Bundle;
 
@@ -23,14 +23,14 @@ import java.io.FileInputStream;
 
 import org.json.JSONObject;
 
-public class FileUploadModule extends ReactContextBaseJavaModule {
+public class UploadFileModule extends ReactContextBaseJavaModule {
 
     @Override
     public String getName() {
-        return "FileUpload";
+        return "UploadFile";
     }
 
-    public FileUploadModule(ReactApplicationContext reactContext) {
+    public UploadFileModule(ReactApplicationContext reactContext) {
         super(reactContext);
     }
 
